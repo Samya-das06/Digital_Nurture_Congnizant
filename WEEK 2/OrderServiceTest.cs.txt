@@ -1,0 +1,55 @@
+﻿using System;
+using Moq;
+using NUnit.Framework;
+
+
+public interface IPaymentGateway
+{
+    bool ProcessPayment(string orderId, decimal amount);
+}
+
+public class Order
+{
+    public string OrderId { get; set; }
+    public decimal Amount { get; set; }
+}
+
+public class OrderService
+{
+    private readonly IPaymentGateway _paymentGateway;
+
+    public OrderService(IPaymentGateway paymentGateway)
+    {
+        _paymentGateway = paymentGateway;
+    }
+
+    public bool PlaceOrder(Order order)
+    {
+        return _paymentGateway.ProcessPayment(order.OrderId, order.Amount);
+    }
+}
+
+
+[TestFixture]
+public class OrderServiceTests
+{
+    [Test]
+    public void PlaceOrder_ShouldReturnTrue_WhenPaymentIsSuccessful()
+    {
+        
+        var mockPaymentGateway = new Mock<IPaymentGateway>();
+        mockPaymentGateway
+            .Setup(pg => pg.ProcessPayment(It.IsAny<string>(), It.IsAny<decimal>()))
+            .Returns(true);
+
+        var orderService = new OrderService(mockPaymentGateway.Object);
+        var testOrder = new Order { OrderId = "ORD123", Amount = 100.00m };
+
+        
+        var result = orderService.PlaceOrder(testOrder);
+
+        
+        Assert.IsTrue(result);
+        mockPaymentGateway.Verify(pg => pg.ProcessPayment("ORD123", 100.00m), Times.Once);
+    }
+}

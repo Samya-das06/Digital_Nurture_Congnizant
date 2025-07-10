@@ -1,0 +1,5 @@
+C:\Users\KIIT\Source\Repos\Jwtbasedoperation\Jwtbasedoperation\obj\Debug\net8.0\Jwtbasedoperation.csproj.AssemblyReference.cache
+C:\Users\KIIT\Source\Repos\Jwtbasedoperation\Jwtbasedoperation\obj\Debug\net8.0\Jwtbasedoperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\Source\Repos\Jwtbasedoperation\Jwtbasedoperation\obj\Debug\net8.0\Jwtbasedoperation.AssemblyInfoInputs.cache
+C:\Users\KIIT\Source\Repos\Jwtbasedoperation\Jwtbasedoperation\obj\Debug\net8.0\Jwtbasedoperation.AssemblyInfo.cs
+C:\Users\KIIT\Source\Repos\Jwtbasedoperation\Jwtbasedoperation\obj\Debug\net8.0\Jwtbasedoperation.csproj.CoreCompileInputs.cache

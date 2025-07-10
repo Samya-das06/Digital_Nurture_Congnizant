@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Carbon.WebApplication.EntityFrameworkCore" Version="2.5.0" />
+    <PackageReference Include="Carbon.WebApplication.Grpc.Client" Version="2.6.2" />
+    <PackageReference Include="Carbon.WebApplication.SolutionService" Version="2.10.1" />
+    <PackageReference Include="ExtCore.WebApplication" Version="9.0.0" />
+    <PackageReference Include="Invio.Extensions.Authentication.JwtBearer" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Core" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="6.0.36" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.NamedService" Version="8.0.0-preview.7.23407.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Pools" Version="8.0.0-preview.5.23308.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
+    <PackageReference Include="MSBuild.WebApplication.CopyContentLinkedFiles" Version="1.1.0-beta" />
+    <PackageReference Include="Sieve" Version="3.0.0-beta0015" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI-4.14.0" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>

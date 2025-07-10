@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = DatabaseContextRetailStore1.Domain
+build_property.ProjectDir = C:\Users\KIIT\Source\Repos\DatabaseContextRetailStore1\DatabaseContextRetailStore1\Src\Core\DatabaseContextRetailStore1.Domain\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
