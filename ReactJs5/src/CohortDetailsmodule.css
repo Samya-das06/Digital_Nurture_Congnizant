@@ -1,8 +1,0 @@
-.box {
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin-bottom: 20px; /* Creates spacing between boxes */
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
-}
